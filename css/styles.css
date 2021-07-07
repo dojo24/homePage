@@ -1,0 +1,109 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f4646;
+  background-image: url('../images/hexellence.png');
+  color: #fff;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body header nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 3em;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #61b8b89b;
+  padding: 3em;
+  margin: 1em;
+}
+body .main #hideDojo,
+body .main #hideSirch,
+body .main #hideCFA,
+body .main #hidePersonal,
+body .main #hideBeeDev {
+  display: none;
+}
+body .main .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+body .main .row .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+body .main .row .column h3 {
+  border: 3px groove #0f4646;
+  padding: 0.5em 1.5em;
+}
+body .main .row .column .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .row .column .nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+body .main .row .column .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .row .column .inner h4 {
+  border: 3px groove #0f4646;
+  padding: 0.5em 1.5em;
+}
+body .main .row .column .inner .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .row .column .inner .nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
