@@ -22,6 +22,7 @@ body {
 body a {
   color: #fff;
   text-decoration: none;
+  padding: 0.2em;
 }
 body header {
   display: flex;
@@ -49,7 +50,9 @@ body .main {
   padding: 3em;
   margin: 1em;
 }
-body .main #hideDojo,
+body .main #hideDojoEveryDay,
+body .main #hideDojoClass,
+body .main #hideDojoOther,
 body .main #hideSirch,
 body .main #hideCFA,
 body .main #hidePersonal,
@@ -86,23 +89,51 @@ body .main .row .column .nav a {
   text-decoration: none;
   padding: 1em;
 }
-body .main .row .column .inner {
+body .main .row .column .innerC {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .main .row .column .inner h4 {
+body .main .row .column .innerC h4 {
   border: 3px groove #0f4646;
   padding: 0.5em 1.5em;
 }
-body .main .row .column .inner .nav {
+body .main .row .column .innerC .nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .main .row .column .inner .nav a {
+body .main .row .column .innerC .nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+body .main .row .column .innerR {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+body .main .row .column .innerR .innerC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .row .column .innerR .innerC h4 {
+  border: 3px groove #0f4646;
+  padding: 0.5em 1.5em;
+}
+body .main .row .column .innerR .innerC .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .row .column .innerR .innerC .nav a {
   color: #fff;
   text-decoration: none;
   padding: 1em;
