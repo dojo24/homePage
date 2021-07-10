@@ -30,7 +30,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideSirchFigma').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -39,7 +39,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideSirchTasks').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -48,7 +48,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideCfaMain').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -57,7 +57,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideCfaSites').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -66,7 +66,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideCfaDocs').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -75,7 +75,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hidePersonalMain').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -84,7 +84,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hidePersonalSites').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -93,7 +93,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hidePersonalLinks').css({'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
             'align-items': 'flex-start'})
     })
@@ -102,7 +102,7 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideBeeMain').css({'display': 'flex',
-        'flex-direction': 'row',
+        'flex-direction': 'column',
         'justify-content': 'center',
         'align-items': 'flex-start'})
     })
@@ -111,7 +111,61 @@ $(document).ready(function(){
             width: 'toggle'
         })
         $('#hideBeeLinks').css({'display': 'flex',
-        'flex-direction': 'row',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#lambdaNotes').click(function() {
+        $('#hideLambdaNotes').animate( {
+            width: 'toggle'
+        })
+        $('#hideLambdaNotes').css({'display': 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#lambdaTk').click(function() {
+        $('#hideLambdaTk').animate( {
+            width: 'toggle'
+        })
+        $('#hideLambdaTk').css({'display': 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#nexGenT').click(function() {
+        $('#hideNexGenT').animate( {
+            width: 'toggle'
+        })
+        $('#hideNexGenT').css({'display': 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#otherCourses').click(function() {
+        $('#hideOtherCourses').animate( {
+            width: 'toggle'
+        })
+        $('#hideOtherCourses').css({'display': 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#challenges').click(function() {
+        $('#hideChallenges').animate( {
+            width: 'toggle'
+        })
+        $('#hideChallenges').css({'display': 'flex',
+        'flex-direction': 'column',
+        'justify-content': 'center',
+        'align-items': 'flex-start'})
+    })
+    $('#ide').click(function() {
+        $('#hideIde').animate( {
+            width: 'toggle'
+        })
+        $('#hideIde').css({'display': 'flex',
+        'flex-direction': 'column',
         'justify-content': 'center',
         'align-items': 'flex-start'})
     })

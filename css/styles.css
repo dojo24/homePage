@@ -62,7 +62,13 @@ body .main #hidePersonalMain,
 body .main #hidePersonalSites,
 body .main #hidePersonalLinks,
 body .main #hideBeeDevMain,
-body .main #hideBeeDevLinks {
+body .main #hideBeeDevLinks,
+body .main #hideLambdaNotes,
+body .main #hideLambdaTk,
+body .main #hideNexGenT,
+body .main #hideOtherCourses,
+body .main #hideChallenges,
+body .main #hideIde {
   display: none;
 }
 body .main .row {
