@@ -53,10 +53,16 @@ body .main {
 body .main #hideDojoEveryDay,
 body .main #hideDojoClass,
 body .main #hideDojoOther,
-body .main #hideSirch,
-body .main #hideCFA,
-body .main #hidePersonal,
-body .main #hideBeeDev {
+body .main #hideSirchFigma,
+body .main #hideSirchTasks,
+body .main #hideCfaMain,
+body .main #hideCfaSites,
+body .main #hideCfaDocs,
+body .main #hidePersonalMain,
+body .main #hidePersonalSites,
+body .main #hidePersonalLinks,
+body .main #hideBeeDevMain,
+body .main #hideBeeDevLinks {
   display: none;
 }
 body .main .row {
