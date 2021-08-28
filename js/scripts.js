@@ -53,6 +53,17 @@ $(document).ready(function(){
             'align-items': 'flex-start'
         })
     })
+    $('#sirchLinks').click(function() {
+        $('#hideSirchLinks').animate( {
+            width: 'toggle'
+        })
+        $('#hideSirchLinks').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'flex-start'
+        })
+    })
     $('#cfaMain').click(function() {
         $('#hideCfaMain').animate( {
             width: 'toggle'
