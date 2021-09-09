@@ -74,7 +74,9 @@ body .main #hideWebDevCourses,
 body .main #hideMicrosoftCourses,
 body .main #hideChallenges,
 body .main #hideIde,
-body .main #hideOtherNotes {
+body .main #hideOtherNotes,
+body .main #hideVaSites,
+body .main #hideMedicalSites {
   display: none;
 }
 body .main .row {
@@ -155,4 +157,22 @@ body .main .row .column .innerR .innerC .nav a {
   color: #fff;
   text-decoration: none;
   padding: 1em;
+}
+body .main .row .column .innerR .innerC .nav .python {
+  display: none;
+}
+body .main .row .column .innerR .python {
+  display: none;
+}
+body.ptPython .main .row .column .innerR .innerC .nav .webFun {
+  display: none;
+}
+body.ptPython .main .row .column .innerR .innerC .nav .python {
+  display: flex;
+}
+body.ptPython .main .row .column .innerR .webFun {
+  display: none;
+}
+body.ptPython .main .row .column .innerR .python {
+  display: flex;
 }

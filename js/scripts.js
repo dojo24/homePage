@@ -130,6 +130,28 @@ $(document).ready(function(){
             'align-items': 'flex-start'
         })
     })
+    $('#medicalSites').click(function() {
+        $('#hideMedicalSites').animate( {
+            width: 'toggle'
+        })
+        $('#hideMedicalSites').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'flex-start'
+        })
+    })
+    $('#vaSites').click(function() {
+        $('#hideVaSites').animate( {
+            width: 'toggle'
+        })
+        $('#hideVaSites').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'flex-start'
+        })
+    })
     $('#beeDevMain').click(function() {
         $('#hideBeeDevMain').animate( {
             width: 'toggle'
@@ -240,4 +262,19 @@ $(document).ready(function(){
             'align-items': 'flex-start'
         })
     })
+})
+
+const btn = document.querySelector('.stack')
+const currentStack = localStorage.getItem('stack')
+if (currentStack == 'python') {
+    document.body.classList.add('ptPython')
+}
+
+btn.addEventListener('click', function() {
+    document.body.classList.toggle('ptPython')
+    let stack = 'webFun'
+    if(document.body.classList.contains('ptPython')) {
+        stack = 'python'
+    }
+    localStorage.setItem('stack', stack)
 })
