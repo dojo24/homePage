@@ -53,14 +53,19 @@ body .main {
   padding: 3em;
   margin: 1em;
 }
-body .main #hideDojoEveryDay,
-body .main #hideDojoClass,
+body .main #hideDojoClassGeneral,
+body .main #hideDojoWebClass,
+body .main #hideDojoPythonClass,
+body .main #hideDojoAdminDrive,
+body .main #hideDojoAdminCalendar,
+body .main #hideDojoMonthly,
 body .main #hideDojoOther,
 body .main #hideSirchFigma,
 body .main #hideSirchTasks,
 body .main #hideSirchLinks,
 body .main #hideCfaMain,
 body .main #hideCfaSites,
+body .main #hideCfaDrive,
 body .main #hideCfaDocs,
 body .main #hidePersonalMain,
 body .main #hidePersonalSites,
@@ -163,6 +168,15 @@ body .main .row .column .innerR .innerC .nav .python {
 }
 body .main .row .column .innerR .python {
   display: none;
+}
+body .main .row .column .python {
+  display: none;
+}
+body.ptPython .main .row .column .webFun {
+  display: none;
+}
+body.ptPython .main .row .column .python {
+  display: flex;
 }
 body.ptPython .main .row .column .innerR .innerC .nav .webFun {
   display: none;

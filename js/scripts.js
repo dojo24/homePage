@@ -1,36 +1,89 @@
 $(document).ready(function(){
-    $('#dojoEveryDay').click(function() {
-        $('#hideDojoEveryDay').animate( {
+    // codingdojo.html line 29
+    $('#dojoClassGeneral').click(function() {
+        $('#hideDojoClassGeneral').animate( {
             width: 'toggle'
         })
-        $('#hideDojoEveryDay').css({
+        $('#hideDojoClassGeneral').css({
             'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
-    $('#dojoClass').click(function() {
-        $('#hideDojoClass').animate( {
+    // codingdojo.html line 44
+    $('#dojoWebClass').click(function() {
+        $('#hideDojoWebClass').animate( {
             width: 'toggle'
         })
-        $('#hideDojoClass').css({
+        $('#hideDojoWebClass').css({
             'display': 'flex',
-            'flex-direction': 'row',
+            'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+        // codingdojo.html line 52
+    $('#dojoPythonClass').click(function() {
+        $('#hideDojoPythonClass').animate( {
+            width: 'toggle'
+        })
+        $('#hideDojoPythonClass').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'center'
+        })
+    })
+    // codingdojo.html line 65
+    $('#dojoAdminDrive').click(function() {
+        $('#hideDojoAdminDrive').animate( {
+            width: 'toggle'
+        })
+        $('#hideDojoAdminDrive').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'center'
+        })
+    })
+    // codingdojo.html line75
+    $('#dojoAdminCalendar').click(function() {
+        $('#hideDojoAdminCalendar').animate( {
+            width: 'toggle'
+        })
+        $('#hideDojoAdminCalendar').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'center'
+        })
+    })
+    // codingdojo.html line 88
+    $('#dojoMonthly').click(function() {
+        $('#hideDojoMonthly').animate({
+            width: 'toggle'
+        })
+        $('#hideDojoMonthly').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'center'
+        })
+    })
+    // codingdojo.html line 96
     $('#dojoOther').click(function() {
-        $('#hideDojoOther').animate( {
+        $('#hideDojoOther').animate({
             width: 'toggle'
         })
         $('#hideDojoOther').css({
             'display': 'flex',
             'flex-direction': 'column',
-            'justify-content': 'center'
+            'justify-content': 'center',
+            'align-items': 'center'
         })
     })
+    // work.html line 32
     $('#sirchFigma').click(function() {
         $('#hideSirchFigma').animate( {
             width: 'toggle'
@@ -39,9 +92,10 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+    // work.html line 40
     $('#sirchTasks').click(function() {
         $('#hideSirchTasks').animate( {
             width: 'toggle'
@@ -50,9 +104,10 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+    // work.html line 48
     $('#sirchLinks').click(function() {
         $('#hideSirchLinks').animate( {
             width: 'toggle'
@@ -61,9 +116,10 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+    // volunteer.html line26
     $('#cfaMain').click(function() {
         $('#hideCfaMain').animate( {
             width: 'toggle'
@@ -72,9 +128,10 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+    // volunteer.html line 32
     $('#cfaSites').click(function() {
         $('#hideCfaSites').animate( {
             width: 'toggle'
@@ -83,9 +140,22 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
+    // volunteer.html line 41
+    $('#cfaDrive').click(function() {
+        $('#hideCfaDrive').animate( {
+            width: 'toggle'
+        })
+        $('#hideCfaDrive').css({
+            'display': 'flex',
+            'flex-direction': 'column',
+            'justify-content': 'center',
+            'align-items': 'center'
+        })
+    })
+    // volunteer.html line 47
     $('#cfaDocs').click(function() {
         $('#hideCfaDocs').animate( {
             width: 'toggle'
@@ -94,7 +164,7 @@ $(document).ready(function(){
             'display': 'flex',
             'flex-direction': 'column',
             'justify-content': 'center',
-            'align-items': 'flex-start'
+            'align-items': 'center'
         })
     })
     $('#personalMain').click(function() {
@@ -278,3 +348,4 @@ btn.addEventListener('click', function() {
     }
     localStorage.setItem('stack', stack)
 })
+
