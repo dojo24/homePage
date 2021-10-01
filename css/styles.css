@@ -38,60 +38,67 @@ body header nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-items: flex-start;
+  height: 75px;
 }
-body header nav a {
+body header nav a,
+body header nav #showWork,
+body header nav #showLearning,
+body header nav #showHome,
+body header nav #showCoding {
   color: #fff;
   text-decoration: none;
   padding: 3em;
 }
-body .main {
+body header nav #hideWork,
+body header nav #hideLearning,
+body header nav #hideHome,
+body header nav #hideCoding {
+  display: none;
+  z-index: 4;
+  background-color: #0000007a;
+  border-radius: 20%;
+}
+body header nav #hideWork a,
+body header nav #hideLearning a,
+body header nav #hideHome a,
+body header nav #hideCoding a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em;
+}
+body main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #61b8b89b;
   padding: 3em;
+  z-index: -1;
   margin: 1em;
 }
-body .main #hideDojoClassGeneral,
-body .main #hideDojoWebClass,
-body .main #hideDojoPythonClass,
-body .main #hideDojoAdminDrive,
-body .main #hideDojoAdminCalendar,
-body .main #hideDojoMonthly,
-body .main #hideDojoOther,
-body .main #hideSirchFigma,
-body .main #hideSirchTasks,
-body .main #hideSirchLinks,
-body .main #hideCfaMain,
-body .main #hideCfaSites,
-body .main #hideCfaDrive,
-body .main #hideCfaDocs,
-body .main #hidePersonalMain,
-body .main #hidePersonalSites,
-body .main #hidePersonalLinks,
-body .main #hideBeeDevMain,
-body .main #hideBeeDevLinks,
-body .main #hideWebDevNotes,
-body .main #hideLambdaTk,
-body .main #hideNexGenT,
-body .main #hideWebDevCourses,
-body .main #hideMicrosoftCourses,
-body .main #hideChallenges,
-body .main #hideIde,
-body .main #hideOtherNotes,
-body .main #hideVaSites,
-body .main #hideMedicalSites {
-  display: none;
+body main .altnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-body .main .row {
+body main .altnav a {
+  background-color: #0000007a;
+  border-radius: 30%;
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 1em;
+  padding: 0.5em;
+}
+body main .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-items: flex-start;
 }
-body .main .row .column {
+body main .row .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,94 +106,36 @@ body .main .row .column {
   margin: 1em;
   padding: 1em;
 }
-body .main .row .column h3 {
+body main .row .column h3 {
   border: 3px groove #0f4646;
   padding: 0.5em 1.5em;
 }
-body .main .row .column .nav {
+body main .row .column .nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .main .row .column .nav a {
+body main .row .column .nav a {
   color: #fff;
   text-decoration: none;
   padding: 1em;
 }
-body .main .row .column .innerC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body .main .row .column .innerC h4 {
-  border: 3px groove #0f4646;
-  padding: 0.5em 1.5em;
-}
-body .main .row .column .innerC .nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body .main .row .column .innerC .nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 1em;
-}
-body .main .row .column .innerR {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-start;
-}
-body .main .row .column .innerR .innerC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body .main .row .column .innerR .innerC h4 {
-  border: 3px groove #0f4646;
-  padding: 0.5em 1.5em;
-}
-body .main .row .column .innerR .innerC .nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body .main .row .column .innerR .innerC .nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 1em;
-}
-body .main .row .column .innerR .innerC .nav .python {
+body main .row .column .nav .python {
   display: none;
 }
-body .main .row .column .innerR .python {
+body main .row .column .python {
   display: none;
 }
-body .main .row .column .python {
+body.ptPython main .row .column .webFun {
   display: none;
 }
-body.ptPython .main .row .column .webFun {
-  display: none;
-}
-body.ptPython .main .row .column .python {
+body.ptPython main .row .column .python {
   display: flex;
 }
-body.ptPython .main .row .column .innerR .innerC .nav .webFun {
+body.ptPython main .row .column .nav .webFun {
   display: none;
 }
-body.ptPython .main .row .column .innerR .innerC .nav .python {
-  display: flex;
-}
-body.ptPython .main .row .column .innerR .webFun {
-  display: none;
-}
-body.ptPython .main .row .column .innerR .python {
+body.ptPython main .row .column .nav .python {
   display: flex;
 }

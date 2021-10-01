@@ -10,44 +10,79 @@
 </head>
 <body>
     <header>
-        <h1>Melissa's Link Wiki</h1>
+        <h1>Melissa's Wiki</h1>
         <nav>
-            <a href='index.html'>Home</a>
-            <a href='work.html'>Work Links</a>
-            <a href='learn.html'>Learning Links</a>
-            <a href='houseHold.html'>Household Links</a>
-            <a href='general.html'>General Links</a>
+            <span><a href="index.html">Home</a></span>
+            <span>
+                <span id="showWork">Work Wiki's</span>
+                <div id="hideWork">
+                    <a href="./work/codingdojo.html">CodingDojo</a>
+                    <a href="./work/sirch.html">Sirch</a>
+                    <a href="./work/eduonix.html">Eduonix</a>
+                    <a href="./work/beedev.html">BeeDev</a>
+                </div>
+            </span>
+            <span>
+                <span id="showLearning">Learning Wiki's</span>
+                <div id="hideLearning">
+                    <a href="./learning/lambda.html">Lambda</a>
+                    <a href="./learning/microsoft.html">Microsoft</a>
+                    <a href="./learning/scotch.html">Scotch.io</a>
+                    <a href="./learning/schools.html">Schools</a>
+                </div>
+            </span>
+            <span>
+                <span id="showHome">Household Wiki's</span>
+                <div id="hideHome">
+                    <a href="./home/bills.html">Bills</a>
+                    <a href="./home/va.html">VA</a>
+                    <a href="./home/medical.html">Medical</a>
+                    <a href="./home/misc.html">Misc</a>
+                </div>
+            </span>
+            <span>
+                <span id="showCoding">Coding Wiki's</span>
+                <div id="hideCoding">
+                    <a href="./coding/cfa.html">CFA</a>
+                    <a href="./coding/hackathons.html">Hackathons</a>
+                    <a href="./coding/ide.html">IDE's</a>
+                    <a href="./coding/challenges.html">Challenges</a>
+                    <a href="./coding/mysites.html">My Websites</a>
+                </div>
+            </span>
         </nav>
     </header>
-    <div class='main'>
-        <h2>Frequent Links</h2>
-        <div class='row'>
-            <div class='column'>
-                <h3>Work</h3>
-                <a href='https://clideo.com/merge-video' target="_blank">Merge Video</a>
-                <a href="https://assist.zoho.com/app/unattended/devices" target="_blank">Remote Assist</a>
+    <main>
+        <h2>Misc Links</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Work Related</h3>
+                <div class="nav">
+                    <a href='https://clideo.com/merge-video' target="_blank">Merge Video</a>
+                    <a href="https://assist.zoho.com/app/unattended/devices" target="_blank">Remote Assist</a>
+                </div>
             </div>
-            <div class='column'>
-                <h3>General</h3>
-                <a href='volunteer.html'>Volunteer Links Wiki</a>
-                <a href='https://blog.melissa-longenberger.com' target="_blank">Blog</a>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='column'>
+            <div class="column">
                 <h3>Social</h3>
-                <a href='https://www.linkedin.com/feed/' target="_blank">LinkedIn</a>
-                <a href='https://twitter.com/home' target="_blank">Twitter</a>
-                <a href='https://www.reddit.com/' target="_blank">Reddit</a>
-                <a href='https://www.quora.com/' target="_blank">Quora</a>
+                <div class="nav">
+                    <a href='https://www.linkedin.com/feed/' target="_blank">LinkedIn</a>
+                    <a href='https://twitter.com/home' target="_blank">Twitter</a>
+                    <a href='https://www.reddit.com/' target="_blank">Reddit</a>
+                    <a href='https://www.quora.com/' target="_blank">Quora</a>
+                </div>
             </div>
-            <div class='column'>
-                <h3>Weather</h3>
-                <a href='https://wunderground.com' target="_blank">WunderGround</a>
-                <a href='https://ambientweather.net/dashboard/853a422289a9b45d2e891288501b3f9b' target="_blank">Ambient Weather</a>
+            <div class="column">
+                <h3>Weather Links</h3>
+                <div class="nav">
+                    <a href='https://wunderground.com' target="_blank">WunderGround</a>
+                    <a href='https://ambientweather.net/dashboard/853a422289a9b45d2e891288501b3f9b' target="_blank">Ambient Weather</a>
+                </div>
+        </div>
+        <div class="row">
+
             </div>
         </div>
-    </div>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='./js/scripts.js'></script>
 </body>
