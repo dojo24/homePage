@@ -45,18 +45,18 @@ $(document).ready(function(){
     })
 })
 
-// const btn = document.querySelector('.stack')
-// const currentStack = localStorage.getItem('stack')
-// if (currentStack == 'python') {
-//     document.body.classList.add('ptPython')
-// }
+const btn = document.querySelector('.stack')
+const currentStack = localStorage.getItem('stack')
+if (currentStack == 'python') {
+    document.body.classList.add('ptPython')
+}
 
-// btn.addEventListener('click', function() {
-//     document.body.classList.toggle('ptPython')
-//     let stack = 'webFun'
-//     if(document.body.classList.contains('ptPython')) {
-//         stack = 'python'
-//     }
-//     localStorage.setItem('stack', stack)
-// })
+btn.addEventListener('click', function() {
+    document.body.classList.toggle('ptPython')
+    let stack = 'webFun'
+    if(document.body.classList.contains('ptPython')) {
+        stack = 'python'
+    }
+    localStorage.setItem('stack', stack)
+})
 

@@ -5,57 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="./images/bee.jpg"/>
-    <link rel='stylesheet' href='./css/styles.css'>
-    <title>Home Page</title>
+    <link rel='stylesheet' href='../css/styles.css'>
+    <title>Scotch.io Wiki</title>
 </head>
 <body>
     <header>
-        <h1>Melissa's Wiki</h1>
+        <h1>Scotch.io Wiki</h1>
         <nav>
             <span><a href="../index.html">Home</a></span>
             <span>
                 <span id="showWork">Work Wiki's</span>
-                <div id="hideWork">
+                <span id="hideWork">
                     <a href="../work/codingdojo.html">CodingDojo</a>
                     <a href="../work/sirch.html">Sirch</a>
                     <a href="../work/eduonix.html">Eduonix</a>
                     <a href="../work/beedev.html">BeeDev</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showLearning">Learning Wiki's</span>
-                <div id="hideLearning">
+                <span id="hideLearning">
                     <a href="lambda.html">Lambda</a>
                     <a href="microsoft.html">Microsoft</a>
                     <a href="scotch.html">Scotch.io</a>
                     <a href="schools.html">Schools</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showHome">Household Wiki's</span>
-                <div id="hideHome">
+                <span id="hideHome">
                     <a href="../home/bills.html">Bills</a>
                     <a href="../home/va.html">VA</a>
                     <a href="../home/medical.html">Medical</a>
                     <a href="../home/misc.html">Misc</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showCoding">Coding Wiki's</span>
-                <div id="hideCoding">
-                    <a href="../coding/cfa.html">CFA</a>
-                    <a href="../coding/hackathons.html">Hackathons</a>
-                    <a href="../coding/ide.html">IDE's</a>
-                    <a href="../coding/challenges.html">Challenges</a>
-                    <a href="../coding/mysites.html">My Websites</a>
-                </div>
+                <span id="hideCoding">
+                    <a href="../coding/volunteer.html">Volunteer</a>
+                    <a href="../coding/challenges.html">Challenges & Hackathons</a>
+                    <a href="../coding/mysites.html">Personal Sites & IDEs</a>
+                </span>
             </span>
         </nav>
     </header>
     <main>
+        <h2>HTML / CSS</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Course</h3>
+                <div class="nav">
 
+                </div>
+            </div>
+            <div class="column">
+                <h3>Code Base</h3>
+                <div class="nav">
+                    <a href="https://github.com/scotch-io/html-css-website-course" target="_blank">HTML/CSS (Github)</a>
+                </div>
+            </div>
+        </div>
+        <h2>JS / jQuery</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Course</h3>
+                <div class="nav">
+                    <a href="https://scotch.io/courses/the-ultimate-guide-to-javascript-algorithms" target="_blank">JS Algos (Course)</a>
+                    <a href="https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here" target="_blank">JS Starter (Course)</a>
+                    <a href="https://nonoobleftbehind.com/" target="_blank">jQuery for noobs (Course)</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Code Base</h3>
+                <div class="nav">
+                    <a href="https://github.com/worldclassdev/js-algorithms-demo-" target="_blank">JS Algos (Github)</a>
+                    <a href="https://github.com/scotch-io/jquery-for-total-noobs" target="_blank">jQuery for Noobs (Github)</a>
+                    <a href="https://github.com/scotch-io/javascript-starter-course" target="_blank">JS Starter (Github)</a>
+                </div>
+            </div>
+        </div>
+        <h2>React / Node / Express</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Course</h3>
+                <div class="nav">
+
+                </div>
+            </div>
+            <div class="column">
+                <h3>Code Base</h3>
+                <div class="nav">
+                    <a href="https://github.com/scotch-io/react-weather-app" target="_blank">React Weather (Github)</a>
+                    <a href="https://github.com/scotch-io/react-router-course" target="_blank">React Router (Github)</a>
+                    <a href="https://github.com/scotch-io/react-tweets" target="_blank">React Tweets (Github)</a>
+                    <a href="https://github.com/scotch-io/node-starter-course" target="_blank">Node Starter (Github)</a>
+                </div>
+            </div>
+        </div>
+        <h2>Python / Django / Flask</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Course</h3>
+                <div class="nav">
+                    <a href="https://www.digitalocean.com/community/tutorials/build-a-crud-web-app-with-python-and-flask-part-one" target="_blank">Python Flask (Course)</a>
+                    <a href="https://www.digitalocean.com/community/tutorials/working-with-django-templates-static-files" target="_blank">Django Templates (Course)</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Code Base</h3>
+                <div class="nav">
+                    <a href="https://github.com/scotch-io/python-flask-crud-1" target="_blank">Python Flask 1 (Github)</a>
+                    <a href="https://github.com/scotch-io/python-flask-crud-2" target="_blank">Python Flask 2 (Github)</a>
+                    <a href="https://github.com/scotch-io/django-templates" target="_blank">Django Templates (Github)</a>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src='./js/scripts.js'></script>
+    <script src='../js/scripts.js'></script>
 </body>
 </html>

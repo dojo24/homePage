@@ -5,57 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="./images/bee.jpg"/>
-    <link rel='stylesheet' href='./css/styles.css'>
-    <title>Home Page</title>
+    <link rel='stylesheet' href='../css/styles.css'>
+    <title>VA Wiki</title>
 </head>
 <body>
     <header>
-        <h1>Melissa's Wiki</h1>
+        <h1>VA Wiki</h1>
         <nav>
             <span><a href="../index.html">Home</a></span>
             <span>
                 <span id="showWork">Work Wiki's</span>
-                <div id="hideWork">
+                <span id="hideWork">
                     <a href="../work/codingdojo.html">CodingDojo</a>
                     <a href="../work/sirch.html">Sirch</a>
                     <a href="../work/eduonix.html">Eduonix</a>
                     <a href="../work/beedev.html">BeeDev</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showLearning">Learning Wiki's</span>
-                <div id="hideLearning">
+                <span id="hideLearning">
                     <a href="../learning/lambda.html">Lambda</a>
                     <a href="../learning/microsoft.html">Microsoft</a>
                     <a href="../learning/scotch.html">Scotch.io</a>
                     <a href="../learning/schools.html">Schools</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showHome">Household Wiki's</span>
-                <div id="hideHome">
+                <span id="hideHome">
                     <a href="bills.html">Bills</a>
                     <a href="va.html">VA</a>
                     <a href="medical.html">Medical</a>
                     <a href="misc.html">Misc</a>
-                </div>
+                </span>
             </span>
             <span>
                 <span id="showCoding">Coding Wiki's</span>
-                <div id="hideCoding">
-                    <a href="../coding/cfa.html">CFA</a>
-                    <a href="../coding/hackathons.html">Hackathons</a>
-                    <a href="../coding/ide.html">IDE's</a>
-                    <a href="../coding/challenges.html">Challenges</a>
-                    <a href="../coding/mysites.html">My Websites</a>
-                </div>
+                <span id="hideCoding">
+                    <a href="../coding/volunteer.html">Volunteer</a>
+                    <a href="../coding/challenges.html">Challenges & Hackathons</a>
+                    <a href="../coding/mysites.html">Personal Sites & IDEs</a>
+                </span>
             </span>
         </nav>
     </header>
     <main>
-
+        <h2>Benefits / Insurance</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Benefits</h3>
+                <div class="nav">
+                    <a href='https://myaccess.dmdc.osd.mil/identitymanagement/authenticate.do?execution=e2s1'>Ebenefits Login</a>
+                    <a href='https://eauth.va.gov/mhv-portal-web/web/myhealthevet/appointments'>Appts</a>
+                    <a href='https://eauth.va.gov/mhv-portal-web/eauth?deeplinking=prescription_refill'>Pharmacy</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Insurance</h3>
+                <div class="nav">
+                    <a href='https://myaccount.vfwmemberplans.com/#/react-app/dashboard'>VFW Term Life</a>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src='./js/scripts.js'></script>
+    <script src='../js/scripts.js'></script>
 </body>
 </html>

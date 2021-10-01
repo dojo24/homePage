@@ -9,7 +9,6 @@ webFun
 python
 
 <a href='https://my.a2hosting.com' target="_blank">A2Hosting</a>
-<a href='https://beedev-services.com/'>Main Site (currently old version)</a>
 
 
 
@@ -21,73 +20,45 @@ python
 
 
 
-<a href='https://mychart.mycarecompass.org/MyChart/Home/'>My Geisinger</a>
-<a href='https://1704-1.portal.athenahealth.com/?section=welcome&CSRFPROTECT=569e7799c2547c1d70bf8803be688370479f32d708d96728236809c5031f0e29'>Commonweath Health</a>
-<a href='https://myaccount.aflac.com/'>Aflac</a>
-<a href='https://myaccount.vfwmemberplans.com/#/react-app/dashboard'>VFW Term Life</a>
-<a href="https://member.premera.com/dashboard">Premera Health</a>
-<a href='https://myaccess.dmdc.osd.mil/identitymanagement/authenticate.do?execution=e2s1'>Ebenefits Login</a>
-<a href='https://eauth.va.gov/mhv-portal-web/eauth?deeplinking=prescription_refill'>Pharmacy</a>
-<a href='https://eauth.va.gov/mhv-portal-web/web/myhealthevet/appointments'>Appts</a>
 
 
-<a href='volunteer.html'>Volunteer Links Wiki</a>
+
+
+
+
+
 <a href='https://blog.melissa-longenberger.com' target="_blank">Blog</a>
 
 
-<a href='https://learn.lambdaschool.com/tracks/web-development/' target="_blank">Web Dev TK</a>
-<a href='https://learn.lambdaschool.com/tracks/data-science/' target="_blank">DS TK</a>
+
+
 <a href='https://learn-legacy.lambdaschool.com/' target="_blank">Legacy TK</a>
+
+
 <a href='https://www.evernote.com' target="_blank">EverNote Notes</a>
-<a href='https://www.notion.so/honeybee24/Azure-Notes-f837b9f6849f46ab85d4a746dc2450c3' target="_blank">Microsoft Azure Notes</a>
+
 <a href='https://learn.nexgent.com/' target="_blank">NexGenT TK</a>
-<a href='https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/?source=learn' target="_blank">Azure Fundamentals</a>
-<a href='https://docs.microsoft.com/en-us/learn/certifications/azure-ai-fundamentals/' target="_blank">Azure AI Fundamentals</a>
-<a href='https://docs.microsoft.com/en-us/learn/certifications/azure-data-fundamentals/' target='_blank'>Azure Data Fundamentals</a>
-<a href='https://thecodingtrain.com/CodingChallenges/' target="_blank">Coding Train</a>
-<a href='https://www.hackerrank.com/dashboard' target="_blank">HackerRank</a>
-<a href='https://leetcode.com/' target="_blank">LeetCode</a>
-<a href='https://app.codesignal.com/' target="_blank">CodeSignal</a>
-<a href='https://codepen.io' target="_blank">CodePen</a>
-<a href='https://codesandbox.io' target='_blank'>CodeSandBox</a>
-<a href='https://replit.com/~' target='_blank'>replit</a>
-<a href='https://glitch.com/' target="_blank">Glitch</a>
-<a href='https://discourse.codeforamerica.org/' target="_blank">CFA Discourse</a>
-<a href='https://opencolumbiaco.org' target="_blank">Main Site</a>
-<a href='https://drive.google.com/drive/u/4/my-drive' target="_blank">Webmaster Drive</a><a href='https://docs.google.com/forms/d/1RZeiZoRBRuMOv1xixkzX7UFo9oz2pYIqDMU944V_ZK0/edit' target="_blank">Help Form</a>
-<a href='https://docs.google.com/forms/d/1ihlLWkjDWaPqSAUZnw-3ZucB7vjIRssinQAp-TQml00/edit' target="_blank">Join Form</a>
-<a href='https://docs.google.com/forms/d/1BWVtJZqiOQ509bZGZZozMEVC9D51TjGhaRoIG-NdhhY/edit' target="_blank">Project Form</a>
-<a href='https://docs.google.com/document/d/1cjwp2R3VX56egib_jcJCrvMf_e98TcqSDhv_VkcSOJs/edit' target="_blank">Military Roadmap</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a href='https://www.notion.so/honeybee24/Some-extra-links-7c3ad2647eda45a48989004a1c27baca' target="_blank">Notion Notes</a>
 <a href="" target="_blank">HackMd</a>
 <a href='https://hackmd.io/@sIQnCbQ0T56A3KLAiNrlhQ' target="_blank">HackMd (Mari Batilando)</a>
-<a href="https://github.com/scotch-io/html-css-website-course" target="_blank">HTML/CSS (Github)</a>
-<a href="https://scotch.io/courses/the-ultimate-guide-to-javascript-algorithms" target="_blank">JS Algos (Course)</a>
-<a href="https://github.com/worldclassdev/js-algorithms-demo-" target="_blank">JS Algos (Github)</a>
-<a href="https://github.com/scotch-io/react-weather-app" target="_blank">React Weather (Github)</a>
-<a href="https://github.com/scotch-io/react-router-course" target="_blank">React Router (Github)</a>
-<a href="https://nonoobleftbehind.com/" target="_blank">jQuery for noobs (Course)</a>
-<a href="https://github.com/scotch-io/jquery-for-total-noobs" target="_blank">jQuery for Noobs (Github)</a>
-<a href="https://github.com/scotch-io/react-tweets" target="_blank">React Tweets (Github)</a>
-<a href="https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here" target="_blank">JS Starter (Course)</a>
-<a href="https://github.com/scotch-io/javascript-starter-course" target="_blank">JS Starter (Github)</a>
-<a href="https://www.digitalocean.com/community/tutorials/build-a-crud-web-app-with-python-and-flask-part-one" target="_blank">Python Flask (Course)</a>
-<a href="https://github.com/scotch-io/python-flask-crud-1" target="_blank">Python Flask 1 (Github)</a>
-<a href="https://github.com/scotch-io/python-flask-crud-2" target="_blank">Python Flask 2 (Github)</a>
-<a href="https://github.com/scotch-io/node-starter-course" target="_blank">Node Starter (Github)</a>
-<a href="https://www.digitalocean.com/community/tutorials/working-with-django-templates-static-files" target="_blank">Django Templates (Course)</a>
-<a href="https://github.com/scotch-io/django-templates" target="_blank">Django Templates (Github)</a>
-<a href='https://www.freecodecamp.org/' target="_blank">Free Code Camp</a>
-<a href='https://courses.wesbos.com/account' target="_blank">WesBos</a>
-<a href='https://developer.android.com/courses/android-basics-kotlin/course' target='_blank'>Android Basics</a>
-<a href='https://open.appacademy.io/learn' target="_blank">AppAcademy</a>
-<a href='https://www.udemy.com/' target="_blank">Udemy</a>
-<a href='https://www.figma.com/file/Y2UaxAEKgnX0RJV7FYaaSJ/Landing-page?node-id=0%3A1' target="_blank">Landing Figma</a>
-<a href='https://www.figma.com/file/owdY4SMF6tUcMB0t0FUzIY/Sirch?node-id=144%3A9' target="_blank">Sirch</a>
-<a href='https://www.figma.com/file/zndwfH13bzk3PJmr5rJ6ev/Avatars?node-id=0%3A1' target="_blank">Avatars</a>
-<a href='https://apps.adamv.be/static/Wander/view.html?key=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' target="_blank">Wander</a>
-<a href='https://sirchit.atlassian.net/jira/your-work' target="_blank">Jira</a>
-<a href='https://beta.openai.com/' target="_blank">OpenAi</a>
-<a href="https://councilsirch.000webhostapp.com/" target="_blank">Council Beta Site</a>
-<a href="https://www.000webhost.com/members/website/list" target="_blank">Beta Upload Site</a>
-<a href="https://console.aws.amazon.com/codesuite/codecommit/repositories?region=us-east-1" target="_blank">AWS</a>
