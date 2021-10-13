@@ -51,6 +51,7 @@
             </span>
         </nav>
         <h4><span>Melissa Time: </span><span id="myTime" onload="est()"></span></h4>
+        <h4><span>Central Time: </span><span id="centralTime" onload='cst()'></span></h4>
         <h4><span>Granite Construction Time: </span><span id="pacificTime" onload='pst()'></span></h4>
     </header>
     <main>
@@ -81,6 +82,7 @@
     <script src='../js/scripts.js'></script>
     <script>
         setInterval(est, 8000);
+        setInterval(cst, 8000)
         setInterval(pst, 8000)
     </script>
 </body>

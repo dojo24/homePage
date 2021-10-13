@@ -63,13 +63,14 @@ function est() {
     est = new Date().toLocaleTimeString('en-GB')
     // console.log("est: ", est)
     document.getElementById('myTime').innerText = est
-    // updateEST()
-    
+}
+function cst() {
+    cst = new Date(new Date().getTime() + -1*60*60*1000).toLocaleTimeString('en-GB')
+    console.log("cst: ", cst)
+    document.getElementById('centralTime').innerText = cst
 }
 function pst() {
     pst = new Date(new Date().getTime() + -3*60*60*1000).toLocaleTimeString('en-GB')
     // console.log("est: ", pst)
     document.getElementById('pacificTime').innerHTML = pst
-    // updatePST() 
-    
 }
